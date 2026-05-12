@@ -1,7 +1,7 @@
 {
   "name": "@cynosure-mcp/nullpointer-file-share",
   "mcpName": "io.github.andreasjhagen/nullpointer-file-share",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server that uploads files to 0x0.st (nullpointer) for temporary file sharing",
   "type": "module",
   "main": "dist/index.js",
