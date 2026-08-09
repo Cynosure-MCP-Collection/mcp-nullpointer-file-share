@@ -50,6 +50,7 @@ const server = new McpServer({
 server.registerTool(
     'share_file',
     {
+        annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: true },
         description: 'Upload a file to 0x0.st and return a temporary sharing URL. Files are retained based on size (min 30 days, max 365 days). Max file size is 512 MiB.',
         inputSchema: z.object({
             filePath: z.string().describe('Absolute or relative path to the file to upload'),
