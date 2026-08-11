@@ -43,7 +43,7 @@ const server = new McpServer({
     version: '1.0.0',
     title: 'Temporary File Sharing',
     description: 'Upload files to 0x0.st for temporary sharing URLs.',
-    icons: [{ src: 'https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-nullpointer-file-share/icon.png', mimeType: 'image/png' }],
+    icons: [{ src: 'https://unpkg.com/@cynosure-mcp/nullpointer-file-share@1.0.4/icon.png', mimeType: 'image/png' }],
 });
 
 // Tool: share_file
