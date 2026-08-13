@@ -37,5 +37,13 @@
     "0x0",
     "upload",
     "ai"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cynosure-MCP-Collection/mcp-nullpointer-file-share.git"
+  },
+  "homepage": "https://github.com/Cynosure-MCP-Collection/mcp-nullpointer-file-share#readme",
+  "bugs": {
+    "url": "https://github.com/Cynosure-MCP-Collection/mcp-nullpointer-file-share/issues"
+  }
 }
